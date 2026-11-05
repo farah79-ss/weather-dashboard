@@ -3,6 +3,17 @@
 A web dashboard showing current weather and a 5-day forecast for any city.
 Built with **Python**, **Streamlit**, **Requests**, and the **OpenWeather API**.
 
+## Screenshots
+Current weather and 5-day forecast:
+
+![Dashboard](screenshots/dashboard.png)
+
+Friendly error when the city doesn't exist:
+
+![City not found](screenshots/city-not-found.png)
+
+> The screenshots were taken against a local mock of the OpenWeather API (same JSON format), so the numbers are sample data. The weather icon and map tiles load from the internet and are not shown in them.
+
 ## Features
 - Search any city, switch between Celsius / Fahrenheit
 - Current temperature, feels-like, humidity, wind, description and icon
